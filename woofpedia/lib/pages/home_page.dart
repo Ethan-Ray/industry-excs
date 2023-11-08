@@ -28,9 +28,10 @@ class _HomePage extends State<HomePage> {
               return Scaffold(
                 // Create your layout here
                 body: Column(children: [
-                  Spacer(),
-                  Text("Hello world"),
-                  Spacer(),
+                  SizedBox(
+                    height: 100,
+                  ),
+                  Center(child: Text("hello world"))
                 ]),
               );
             }));
